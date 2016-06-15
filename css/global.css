@@ -1,0 +1,48 @@
+@font-face {font-family:"Dutch801";src:url("../font/dut801ia-webfont.eot");src:url("../font/dut801ia-webfont.eot?#iefix") format("embedded-opentype"), url("../font/dut801ia-webfont.woff") format("woff"), url("../font/dut801ia-webfont.ttf") format("truetype"), url("../font/dut801ia-webfont.svg#Dutch801ItHdBTItalic") format("svg")}
+
+* {margin:0;padding:0;line-height:100%;list-style:none}
+
+body {font:10px Dutch801, serif;color:#85827a;background:url("../img/pattern.jpg")}
+img {border:none}
+a {color:#589cc0;text-decoration:none}
+
+#wrap {width:960px;margin:30px auto}
+
+#maintenence {position:absolute;left:50%;top:50%;margin:-118px 0 0 -375px;text-align:center}
+
+#aside {float:left;width:150px;padding:0 10px;font-size:1.4em}
+#aside .status, #aside .title, #aside ul {padding:0 10px}
+#aside .logo a {display:block;width:138px;height:138px;text-indent:-9999px;background:url("../img/sprite.png") no-repeat}
+#aside .title {display:block;margin:10px 0 0 0;padding-top:15px;font-size:1.71em;color:#0d2735;background:url("../img/line_double.gif") repeat-x}
+#aside ul {margin:-5px 0 0 0}
+#aside li {line-height:30px}
+
+#content {margin:0 0 0 200px}
+
+#about {display:none;margin:0 0 20px 0;padding:30px 0 1px 0;font-size:1.8em;background:url("../img/line_double.gif") repeat-x left bottom;overflow:hidden}
+#about em {display:block;margin:0 0 20px 0;line-height:30px}
+#about .title {font-size:2em;color:#0d2735}
+
+#author {font-size:1.8em;line-height:30px;color:#85827a}
+#author h1 {display:inline;padding:0 20px 0 0;font-size:2em;line-height:90px;color:#0d2735}
+#author h1 a {color:#0d2735}
+#author li {margin:0 0 15px 0}
+
+#works, #author {font-size:1.8em;line-height:30px;color:#85827a}
+#works .view_online, #works .back {font-size:.77em}
+#works .back {padding:10px 10px 5px 0;text-align:right;background:url("../img/line_double.gif") repeat-x left bottom}
+#works .view_online {padding:0 13px 0 0;background:url("../img/ico_link.gif") no-repeat right center}
+#works h1 {display:inline;padding:0 20px 0 0;font-size:2em;line-height:90px;color:#0d2735}
+#works h1 a {color:#0d2735}
+
+.status {margin:25px 0}
+.status span {display:block;font-size:1.71em;color:#0d2735}
+
+.flag_new {position:absolute;right:-8px;top:-6px;width:79px;height:79px;text-indent:-9999px;background:url("../img/flag_new.png") no-repeat}
+
+.work_list li {position:relative;float:left;width:225px;height:288px;margin:0 30px 30px 0;padding:2px;box-shadow:1px 1px 2px #ccc;background:#fff}
+.work_list img {margin:0 0 5px 0}
+.work_list h2, .work_list p, .work_list cite {padding:0 5px}
+.work_list h2 a {font-size:1.8em;color:#0d2735}
+.work_list p {margin:0 0 20px 0;font-size:1.4em}
+.work_list cite {font-size:1.4em}
